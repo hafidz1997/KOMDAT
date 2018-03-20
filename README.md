@@ -1,4 +1,4 @@
-<h5 align="center"><img src="https://www.hostpapa.in/assets/lp/oxwall_logo_big.png"></h5>
+<h5 align="center"><img src="https://cloud.githubusercontent.com/assets/130878/20946612/49a8a25c-bbc0-11e6-8314-10bef902af51.png"></h5>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
@@ -6,7 +6,7 @@
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
-**Oxwall** adalah perangkat lunak forum yang didistribusikan di bawah Common Public Attribution License. Ini digunakan sebagai platform untuk jejaring sosial dan situs komunitas. Inti perangkat lunak Oxwall default berisi fitur komunitas dasar yang mencakup konten upload / sharing, jaringan teman, profil dan tata letak halaman, pengelolaan pengguna dan konten, SEO built-in.
+**Superset** adalah perangkat lunak visualisasi data yang *open source*. Superset di desain oleh Airbnb. Superset adalah platform eksplorasi data yang dirancang dengan visual, intuitif dan interaktif. Tujuan utama Superset adalah mempermudah untuk mengolah dan memvisualisasikan data. Pengembangnya mengklaim bahwa Superset dapat melakukan analisis dengan cepat. 
 
 # Instalasi
 [`^ kembali ke atas ^`](#)
