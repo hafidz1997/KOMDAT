@@ -15,6 +15,9 @@
 - Virtualbox 2.6
 - Ubuntu server 16.04
 - Ubuntu bash di windows
+- `cryptography` Python library
+- Python virtualenv
+- Python’s setup tools and pip
 
 #### Proses Instalasi :
 1. Lakukan update server
@@ -32,47 +35,47 @@ $ sudo apt install ssh
 $ ssh student@localhost –p 2222
 ```
 
-4. Install seluruh kebutuhan sistem yang diperlukan seperti`Apache`, `PHP`, dan `MySQL`. 
+4. Install seluruh kebutuhan sistem yang diperlukan seperti `cryptography` Python library, Python virtualenv, dan Python’s setup tools and pip . 
 ```
-$ sudo apt install apache2 
-$ sudo apt install mysql-server
-$ sudo apt install php
-$ sudo apt install libapache2-mod-php 
-$ sudo apt install php-mysql php-zip php-gd php-json php-readline php–mcrypt php-mbstring php-xml php-ssh2
-$ sudo service apache2 restart
-```
-
-5. Install terlebih dahulu zip untuk mengekstrak data Oxwall.
-```
-$ sudo apt install zip && sudo apt install unzip
+#instalasi cryptography python library
+$ sudo apt-get install build-essential libssl-dev libffi-dev python-dev python-pip libsasl2-dev libldap2-dev
+#instalasi virtualenv
+$ pip install virtualenv
+# aktivasi virtualenv
+$ virtualenv venv
+$. ./venv/bin/activate
+#install python setup dan pip
+$ pip install --upgrade setuptools pip
 ```
 
-6. Unduh **Oxwall** ke dalam direktori.
+5. Install Superset
 ```
-$ wget –c http://ow.download.s3.amazonaws.com/oxwall-1.8.4.1.zip
-```
-
-7. Ekstrak file yang telah diunduh ke dalam direktori yang diinginkan. 
-```
-$ unzip 0xwall-1.8.4.1.zip –d oxwall
+$ pip install superset
 ```
 
-8. Pindahkan folder oxwall
+6. Membuat user Admin
 ```
-$ sudo mv oxwall /var/www/html
-```
-
-9. Mengubah ownership direktori oxwall ke webserver 
-```
-$ sudo chown –R www-data:www-data /var/www/html/oxwall
+$ fabmanager create-admin --app superset
 ```
 
-10. Buat database dan user untuk **Oxwall** 
+7. Inisialisasi database Superset
 ```
-$ mysql –u root –p –e "
-    CREATE DATABASE oxwall;
-    GRANT ALL PRIVILEGES ON `oxwall`.* TO 'oxwall'@'localhost' IDENTIFIED BY 'student';
-    FLUSH PRIVILEGES;"
+$ superset db upgrade
+```
+
+8. Memasukkan contoh data untuk visualisasi
+```
+$ superset load_examples
+```
+
+9. Membuat pengaturan awal
+```
+$ superset init
+```
+
+10. Jalankan server web pada port 8088, gunakan -p untuk mengikat port lain
+```
+$ superset runserver
 ```
 
 11. Karena oxwall menggunakan .htaccess dan secara default diblock oleh apache, maka perlu dilakukan beberapa konfigurasi Apache
