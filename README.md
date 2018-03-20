@@ -77,32 +77,7 @@ $ superset init
 ```
 $ superset runserver
 ```
-
-11. Karena oxwall menggunakan .htaccess dan secara default diblock oleh apache, maka perlu dilakukan beberapa konfigurasi Apache
-```
-$ sudo a2enmod rewrite 
-$ sudo systemctl restart apache2
-$ sudo nano /etc/apache2/sites-available/000-default.conf
-<VirtualHost *:80>
-<Directory /var/www/html>
-Options Indexes FollowSymLinks MultiViews
-AllowOverride All
-Require all granted
-</Directory>
-```
-
-12. Restart apache
-```
-$ sudo systemctl restart apache2
-```
-
-13. Ketika sudah masuk halaman oxwall, akan muncul peringatan mysql php extension belum terinstall, karena oxwall tidak bisa membaca php-mysql dari php 7, triknya yaitu menghapus requirement mysql pada oxwall
-```
-$sudo nano /var/www/html/oxwall/ow_install/files/requirements.txt
-```
-
-14. Hapus mysql pada file tersebut, save dengan ctrl+o
-15. Cek kembali localhost:8888/oxwall , maka oxwall sudah bisa digunakan
+11. Cek kembali localhost:8888/superset , maka superset sudah bisa digunakan
 
 # Konfigurasi
 
