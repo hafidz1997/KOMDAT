@@ -112,10 +112,10 @@ Konfigurasi yang dilakukan adalah saat kita akan menghubungkan database ke Super
 
 Berikut akan dijelaskan salah satu cara pemakaian bagi user baru:
 
-1. Mengunjungi halaman utama Superset, seperti tampilan di bawah ini.
+1. Mengunjungi halaman utama Superset, seperti tampilan di bawah ini. lalu login dengan username dan password yang telah dimasukkan saat instalasi
 ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/1.PNG)
 
-2. Klik Sign up lalu mengisi data registrasi yang tersedia setelah masuk ke halaman registrasi
+2. Lalu akan muncul list database contoh
 ![Home Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/2.PNG)
 
 
