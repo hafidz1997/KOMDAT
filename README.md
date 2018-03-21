@@ -101,7 +101,7 @@ Konfigurasi yang dilakukan adalah saat kita akan menghubungkan database ke Super
 
 3. Isi semua form. Mulai dari **Database** (nama database), **SQLAlchemy URL** (link ke database), hingga **Impersonate the logged on user**. Setelah itu pilih **Save**.
      
-     ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/4.PNG)
+     ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/4.png)
 
 
 # Otomatisasi
