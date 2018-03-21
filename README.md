@@ -180,16 +180,16 @@ Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
 - Terdapat berbagai macam visualisasi data yang baik
 - Mudah, bebas kode, dan juga pengguna dapat mengolah serta menelusuri data lebih dalam. 
 - Alur kerja yang mudah untuk membuat visualisasi dari kumpulan hasil data apapun.
+- Dapat membuat visualisasi data tanpa harus mengetahui SQL
 
 
-Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan dari **Oxwall** ini adalah :
-- Dari segi developer, aplikasi ini belum up-to-date, banyak fitur yang belum di*improve* seiring dengan teknologi aplikasi saat ini sehingga Oxwall tidak lebih baik dari aplikasi yang sudah berkembang saat ini.
-- Tidak ada pengaturan yang baik pada pengelolaan privasi pengguna. Siapapun dapat melihat aktivitas maupun profil siapa saja.
-- Dalam segi UX, pada saat melakukan sesi register terlalu banyak melakukan input data yang tidak dibutuhkan.
+Namun, dalam setiap aplikasi pasti memiliki kekurangan dari segi tertentu. Kekurangan dari **Apache Superset** tersebut adalah :
+- Tidak bisa melakukan kustomisasi
+- Aplikasi ini adalah aplikasi baru tetapi dapat berkembang dengan cepat sehingga dapat banyak ditemukan bug-bug 
 
 
 
-Apabila kira membandingkan **Oxwall** dengan jejaring sosial media seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
+Apabila dibandingkan **Apache Superset** dengan aplikasi bussiness intellegence lainnya seperti  memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
 
 - **Oxwall** menggunakan memori yang lebih ringan daripada **Facebook** karena modulnya lebih sedikit.
 - **Facebook** memiliki plugin yang lengkap dan mendukung semua kustomisasi pada setiap fitur dibandingkan **Oxwall**.
