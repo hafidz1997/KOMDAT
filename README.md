@@ -1,3 +1,4 @@
+
 <h5 align="center"><img src="https://cloud.githubusercontent.com/assets/130878/20946612/49a8a25c-bbc0-11e6-8314-10bef902af51.png"></h5>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
@@ -173,12 +174,11 @@ Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
-**Oxwall** ditulis dalam bahasa pemrograman PHP yang support untuk penggunaan MySQL. **Oxwall** merupakan salah satu aplikasi web jejaring sosial media (CMS) yang cukup simple dan mudah digunakan dengan kelebihan diantaranya : 
-- Tampilan cukup simple (minimalist) dan *light* saat digunakan.
-- Tidak menggunakan memori terlalu besar.
-- Design aplikasi yang responsif, sehingga dapat digunakan pada berbagai platforms.
-- Fitur **Search** yang cukup detail, dapat mencari berdasarkan kriteria tertentu.
-- Dapat dikustomisasi baik untuk situs keluarga, forum, maupun jaringan sosial secara enterprise.
+**Apache Superset** adalah aplikasi web yang dapat mengeksplorasi dan visualisasi data. **Apache Superset** memiliki antarmuka yang baik untuk mengeksplorasi dan memvisualisasikan dataset, dan membuat sebuah *dashboard* yang interaktif. Apache Superset ini memiliki kelebihan diantaranya :
+- Terdapat berbagai macam visualisasi data yang baik
+- Mudah, bebas kode, dan juga pengguna dapat mengolah serta menelusuri data lebih dalam. 
+- Alur kerja yang mudah untuk membuat visualisasi dari kumpulan hasil data apapun.
+
 
 Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan dari **Oxwall** ini adalah :
 - Dari segi developer, aplikasi ini belum up-to-date, banyak fitur yang belum di*improve* seiring dengan teknologi aplikasi saat ini sehingga Oxwall tidak lebih baik dari aplikasi yang sudah berkembang saat ini.
