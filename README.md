@@ -103,7 +103,7 @@ Konfigurasi yang dilakukan adalah saat kita akan menghubungkan database ke Super
      
      ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/4.png)
      
-4. Konfigurasi untuk terhubung dan kontrol Databases:
+4. Konfigurasi untuk terhubung dan kontrol Databases. Buat file superset_config.py di dalam PYTHONPATH, lalu isi file tersebut dengan skrip di bawah:
 ```
 #---------------------------------------------------------
 # Superset specific config
