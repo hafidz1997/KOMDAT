@@ -202,4 +202,4 @@ Apabila kira membandingkan **Oxwall** dengan jejaring sosial media seperti Faceb
 
 1. [About Apache](https://medium.com/@InDataLabs/superset-benefits-and-limitations-of-the-open-source-data-visualization-tool-by-airbnb-8dc8ac81efa9) - About Apache (InData Labs on Medium.com)
 2. [Instalation](https://github.com/apache/incubator-superset) - Apache Superset Instalation with CLI
-3. [Configuration](superset.apache.org) - Apache Superset Configuration
+3. [Configuration](https://superset.apache.org) - Apache Superset Configuration
