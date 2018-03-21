@@ -40,11 +40,14 @@ $ ssh student@localhost –p 2222
 ```
 #instalasi cryptography python library
 $ sudo apt-get install build-essential libssl-dev libffi-dev python-dev python-pip libsasl2-dev libldap2-dev
+
 #instalasi virtualenv
 $ pip install virtualenv
+
 # aktivasi virtualenv
 $ virtualenv venv
 $. ./venv/bin/activate
+
 #install python setup dan pip
 $ pip install --upgrade setuptools pip
 ```
@@ -74,11 +77,11 @@ $ superset load_examples
 $ superset init
 ```
 
-10. Jalankan server web pada port 8088, gunakan -p untuk mengikat port lain
+10. Jalankan server web pada port 8088
 ```
 $ superset runserver
 ```
-11. Cek kembali localhost:8888/superset , maka superset sudah bisa digunakan
+11. Buka **Superset** dengan mengakses localhost:8088 pada browser
 
 # Konfigurasi
 
@@ -178,20 +181,18 @@ Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
 - Terdapat berbagai macam visualisasi data yang baik
 - Mudah, bebas kode, dan juga pengguna dapat mengolah serta menelusuri data lebih dalam. 
 - Alur kerja yang mudah untuk membuat visualisasi dari kumpulan hasil data apapun.
-- Dapat membuat visuaslisasi data tanpa menggunakan SQL
+
+
+Namun, setiap aplikasi pasti memiliki kekurangan dari segi tertentu, Kekurangan dari **Oxwall** ini adalah :
+- Dari segi developer, aplikasi ini belum up-to-date, banyak fitur yang belum di*improve* seiring dengan teknologi aplikasi saat ini sehingga Oxwall tidak lebih baik dari aplikasi yang sudah berkembang saat ini.
+- Tidak ada pengaturan yang baik pada pengelolaan privasi pengguna. Siapapun dapat melihat aktivitas maupun profil siapa saja.
+- Dalam segi UX, pada saat melakukan sesi register terlalu banyak melakukan input data yang tidak dibutuhkan.
 
 
 
-Namun, dalam setiap aplikasi pasti memiliki kekurangan dari segi-segi tertentu. Kekurangan dari **Apache Suprset** ini adalah :
-- Masih terdapat masalah dalam kustomisasi 
-- Aplikasi ini dapat berkembang dengan cepat sehingga pasti banyak ditemukan bug,tetapi bisa melaporkannya ke GitHub issues
+Apabila kira membandingkan **Oxwall** dengan jejaring sosial media seperti Facebook, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
 
-
-
-
-Apabila dibandingkan **Apache Superset** dengan aplikasi bussiness intelligence lainnya seperti aplkasi bisrt terdapat keunggulan dan kelemahannya masing-masing. Berikut adalah beberapa perbandingan antara Apache Superset dengan birst :
-
-- **Apache Superset** memiliki visualisasi yang beragam sedangkan **birst** masih terbatas untuk jenis visualisasinya.
+- **Oxwall** menggunakan memori yang lebih ringan daripada **Facebook** karena modulnya lebih sedikit.
 - **Facebook** memiliki plugin yang lengkap dan mendukung semua kustomisasi pada setiap fitur dibandingkan **Oxwall**.
 - **Oxwall** memiliki fitur search yang detail berdasarkan kriteria tertentu, berbeda dengan **Facebook**
 - **Facebook** memiliki pengguna yang jauh lebih banyak daripada **Oxwall** yang aktif pada forum-forum diskusi atau jejaring sosial yang bersifat enterprise. 
