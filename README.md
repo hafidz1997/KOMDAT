@@ -201,8 +201,6 @@ Apabila kira membandingkan **Oxwall** dengan jejaring sosial media seperti Faceb
 # Referensi
 [`^ kembali ke atas ^`](#)
 
-1. [About Oxwall](https://www.oxwall.com/about) - Oxwall
-2. [Apache Override](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) - DigitalOcean
-3. [Mysql PHP Problem](https://developers.oxwall.com/forum/topic/55994?page=1) - Oxwall Forum
-4. [Cron Jobs Config](https://wiki.oxwall.com/install:cron) - Oxwall Wiki
-5. [Oxwall Review](https://alternativeto.net/software/oxwall/reviews/) - Alternativeto
+1. [About Apache](https://medium.com/@InDataLabs/superset-benefits-and-limitations-of-the-open-source-data-visualization-tool-by-airbnb-8dc8ac81efa9) - About Apache (InData Labs on Mediun.com)
+2. [Apache Superset Instalation with CLI](https://github.com/apache/incubator-superset) - Apache Superset Instalation with CLI
+3. [Apache Superset Configuration](superset.apache.org) - Apache Superset Configuration
