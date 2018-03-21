@@ -89,23 +89,23 @@ $ superset runserver
 
 - Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu **Content settings** yang terdapat pada menu **Settings** dan mengisi field sesuai kebutuhan.
      
-     ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/content_setting.png)
+     ini gambar
 
 - Kita dapat membatasi batas upload size untuk avatar pada user di submenu **User settings**. 
      
-     ![content_setting](https://github.com/airjyp/Komdat---Oxwall/blob/master/konfigurasi/user_setting.png)
+     ini gambar
 
 - Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu di submenu **Available Plugins** pada menu **Plugins**.
      
-     ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(14).png)
+     ini gambar
 
 - Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu **Add New**.
      
-     ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(15).png)
+     ini gambar
 
 - Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu **Themes** di **Appearance**.
      
-     ![konfigurasi](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/Screenshot%20(18).png)
+     ini gambar
 
 
 # Maintenance
@@ -117,11 +117,11 @@ Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. S
 1. Login ke dalam admin aplikasi kita.
 2. Klik submenu **Special pages** pada menu **Pages**.
 
-     ![pages](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/pages.png)
+     ini gambar
 
 3. Checked / Unchecked box untuk masuk ke dalam mode maintenance.
 
-     ![maintenance](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/maintenance.png)
+     ini gambar
 
 4. Untuk menyampaikan pesan yang ingin disampaikan kepada orang yang akan mengakses aplikasi web saat mode maintenance, kita dapat menambahkan pesan pada field **Maintenance message**.
 5. Klik tombol **Save** untuk menyimpan perubahan.
@@ -136,11 +136,11 @@ Salah satu cara yang bisa digunakan untuk menginstall oxwall dengan cepat yaitu 
 1. Mengunjungi **Installatron**
 2. Search oxwall pada installatron, seperti gambar berikut ini
 
-    ![Installatron](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/otomatisasi%20review.png)
+    ini gambar
 
 3. klik tombol **Install this application** lalu mengisi informasi yang tersedia pada form
 
-    ![form](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/otomatisasi%20install.png)
+    ini gambar
 
 4. Tunggu hingga proses instalasi selesai.
 
@@ -153,10 +153,10 @@ Otomatisasi lain yang dapat digunakan pada oxwall yaitu otomatisasi task system 
 Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
 
 1. Mengunjungi halaman utama oxwall, seperti tampilan di bawah ini.
-![Home Page Superset](https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/halaman%20sebelum%20login.png)
+![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/1.PNG)
 
 2. Klik Sign up lalu mengisi data registrasi yang tersedia setelah masuk ke halaman registrasi
-
+![Home Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/2.PNG)
 
 3. Setelah melakukan registrasi, user akan otomatis login ke oxwall dan diarahkan ke halaman beranda akun user tersebut.
 
@@ -168,10 +168,9 @@ Berikut akan dijelaskan salah satu cara pemakaian oxwall bagi user baru:
 
 
 6. Untuk dapat menambah pertemanan, user perlu untuk mengunjungi user lain yang ingin diajaka berteman lalu menekan button add friend
-# ![Lihat profile user lain] (https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/lihat%20air.png)
+
 
 7. User juga dapat mengirim pesan kepada user lain untuk menerima pertemanannya
-# ![Send pm] (https://github.com/airjyp/Komdat---Oxwall/blob/master/Screenshots/send%20pm%20air.png)
 
 
 # Pembahasan
