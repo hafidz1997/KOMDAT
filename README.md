@@ -83,49 +83,25 @@ $ superset runserver
 ```
 11. Buka **Superset** dengan mengakses localhost:8088 pada browser
 
+
 # Konfigurasi
 
 [`^ kembali ke atas ^`](#)
 
-- Untuk menentukan konfigurasi umum, batasan upload file, batas memori yang diperlukan, dan ekstensi/format file yang dapat diupload , dapat dilakukan dengan membuka submenu **Content settings** yang terdapat pada menu **Settings** dan mengisi field sesuai kebutuhan.
+Konfigurasi yang dilakukan adalah saat kita akan menghubungkan database ke Superset: 
+
+1. Setelah melakukan login, pilih: **Sources** pada Menu Tab, lalu pilih **Databases**
      
-     ini gambar
+     ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/3.0.PNG)
 
-- Kita dapat membatasi batas upload size untuk avatar pada user di submenu **User settings**. 
+2. Kita akan diarahkan ke List Databases Page. Pilih **tanda tambah hijau** di kanan atas. 
      
-     ini gambar
+     ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/3.PNG)
+     ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/3.1.PNG)
 
-- Untuk melengkapi dan melakukan improve pada aplikasi, kita dapat menambahkan fitur tertentu di submenu **Available Plugins** pada menu **Plugins**.
+3. Isi semua form. Mulai dari **Database** (nama database), **SQLAlchemy URL** (link ke database), hingga **Impersonate the logged on user**. Setelah itu pilih **Save**.
      
-     ini gambar
-
-- Untuk mengupload dan menambahkan plugin secara manual, dapat dilakukan pada menu **Add New**.
-     
-     ini gambar
-
-- Kita dapat mempercantik tampilan aplikasi dengan menambahkan atau mengganti tema aplikasi pada submenu **Themes** di **Appearance**.
-     
-     ini gambar
-
-
-# Maintenance
-
-[`^ kembali ke atas ^`](#)
-
-Maintenance dibutuhkan untuk melakukan improvisasi dan kualitas pada aplikasi. Salah satu dari aktivitas maintenance adalah melakukan modifikasi, memperbaiki fitur yang ada, maupun meningkatkan performa aplikasi kita. Oleh karena itu, kita perlu mengaktifkan fitur Maintenance mode saat akan melakukan maintenance, agar tidak ada client yang mengakses aplikasi selama proses maintenance berjalan. Berikut ini adalah langkah-langkah yang harus dilakukan :
-
-1. Login ke dalam admin aplikasi kita.
-2. Klik submenu **Special pages** pada menu **Pages**.
-
-     ini gambar
-
-3. Checked / Unchecked box untuk masuk ke dalam mode maintenance.
-
-     ini gambar
-
-4. Untuk menyampaikan pesan yang ingin disampaikan kepada orang yang akan mengakses aplikasi web saat mode maintenance, kita dapat menambahkan pesan pada field **Maintenance message**.
-5. Klik tombol **Save** untuk menyimpan perubahan.
-
+     ![Login Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/4.PNG)
 
 
 # Otomatisasi
@@ -190,11 +166,6 @@ Namun, dalam setiap aplikasi pasti memiliki kekurangan dari segi tertentu. Kekur
 
 
 Apabila dibandingkan **Apache Superset** dengan aplikasi bussiness intellegence lainnya seperti  memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara Oxwall dengan Facebook ini :
-
-- **Oxwall** menggunakan memori yang lebih ringan daripada **Facebook** karena modulnya lebih sedikit.
-- **Facebook** memiliki plugin yang lengkap dan mendukung semua kustomisasi pada setiap fitur dibandingkan **Oxwall**.
-- **Oxwall** memiliki fitur search yang detail berdasarkan kriteria tertentu, berbeda dengan **Facebook**
-- **Facebook** memiliki pengguna yang jauh lebih banyak daripada **Oxwall** yang aktif pada forum-forum diskusi atau jejaring sosial yang bersifat enterprise. 
 
 
 # Referensi
