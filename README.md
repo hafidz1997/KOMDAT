@@ -151,7 +151,7 @@ Berikut akan dijelaskan salah satu cara pemakaian bagi user baru:
 ![Home Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/2.PNG)
 
 3. Pilih salah satu database. Misal pilih: **World's Bank Data**, dan akan langsung muncul berbagai visualisasi dari database yang dipilih
-![Home Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/5.PNG)
+![Home Page Superset](https://github.com/hafidz1997/KOMDAT/blob/master/5.png)
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
