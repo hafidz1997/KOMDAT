@@ -137,7 +137,6 @@ Namun, dalam setiap aplikasi pasti memiliki kekurangan dari segi tertentu. Kekur
 
 
 
-Apabila dibandingkan **Apache Superset** dengan aplikasi bussiness intellegence lainnya seperti  memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara :
 
 
 # Referensi
