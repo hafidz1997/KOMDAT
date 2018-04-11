@@ -136,8 +136,6 @@ WTF_CSRF_EXEMPT_LIST = []
 MAPBOX_API_KEY = ''
 ```
 
-# Otomatisasi
-[`^ kembali ke atas ^`](#)
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
